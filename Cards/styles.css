@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #05322B;
+}
+
+.header{
+    padding: 30px;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+}
+
+.borde{
+    width: 80%;
+    height: 1px;
+    background-color: antiquewhite;
+    margin: auto;
+    box-shadow: 0px 0px 20px antiquewhite;
+}
+
+.menu{
+    display: flex;     /* convertir el espacio flexible para editar */
+    justify-content: space-between;   /* poner espacio entre contenido */
+    align-items: center; /* centar sobre el eje contrario vertical */
+    font-weight: bold;
+    font-family: "Eagle Lake", serif;
+    font-size: 20px;
+    color: 	#bc2702;
+}
+
+.menu__list{
+    display: flex;
+    gap: 14px; /* espacio entre iconos */
+    }
+
+.menu__item{
+    list-style: none; /* quitar estilo, puntos */
+}
+
+.hero{
+    display: flex;
+    margin: 40px 0px;
+    flex-direction: column; /* ubicar le flex en columnas */
+    align-items: center; /* centra en el eje que no es principal */
+    gap: 20px;
+    font-family: "Eagle Lake", serif;
+    color: 	#bc2702;
+    }
+
+.hero__btn{
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Eagle Lake", serif;
+    margin-bottom: 50px;
+}
+
+.card{
+    width: 300px;
+    border: solid 2px white;
+    overflow: hidden; /*  */
+    border-radius: 5px;
+    color: 	#bc2702;
+}
+
+.card__image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card__name{
+    display: flex;
+    justify-content: center;
+}
+
+.card__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+    color: white;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.fin__pagina{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Eagle Lake", serif;
+    font-size: 10px;
+    color: 	#bc2702;    
+}
+
+.footer__redes{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fin__pagina{
+    width: 300px;
+    font-size: 14px;
+}
