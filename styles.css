@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 30px;
+}
+
+.menu{
+    display: flex;     /* convertir el espacio flexible para editar */
+    justify-content: space-between;   /* poner espacio entre contenido */
+    align-items: center; /* centar sobre el eje contrario vertical */
+}
+
+.menu__list{
+    display: flex;
+    gap: 14px; /* espacio entre iconos */
+}
+
+.menu__item{
+    list-style: none; /* quitar estilo, puntos */
+}
+
+.hero{
+    display: flex;
+    flex-direction: column; /* ubicar le flex en columnas */
+    align-items: center; /* centra en el eje que no es principal */
+    gap: 20px;
+}
+
+
