@@ -8,13 +8,6 @@ html{
     font-size: 62.5%;
 }
 
-body{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 label{
     display: block;
     font-size: 2rem;
