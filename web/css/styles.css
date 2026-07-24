@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.menu__list{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.menu__link{
+    text-decoration: none;
+}
